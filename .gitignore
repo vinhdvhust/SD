@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Weights (>100MB exceeds GitHub limit)
+*.pth
+*.pt
+model/*.pth
+model/*.pt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Temporary & Cache
+.cache/
+.pytest_cache/

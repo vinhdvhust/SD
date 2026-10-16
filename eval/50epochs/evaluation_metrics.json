@@ -1,0 +1,150 @@
+{
+    "model_checkpoint": "best_model_50epochs.pth",
+    "metrics_50epochs": {
+        "tp": 105,
+        "tn": 96,
+        "fp": 16,
+        "fn": 7,
+        "total": 224,
+        "accuracy": 0.8973,
+        "precision": 0.8678,
+        "recall": 0.9375,
+        "specificity": 0.8571,
+        "pvn": 0.932,
+        "fpr": 0.1429,
+        "fnr": 0.0625,
+        "fdr": 0.1322,
+        "f1_score": 0.9013,
+        "error_rate": 0.1027,
+        "auc": 0.9621,
+        "ap": 0.9632,
+        "confusion_matrix": [
+            [
+                96,
+                16
+            ],
+            [
+                7,
+                105
+            ]
+        ]
+    },
+    "paper_benchmark": {
+        "tp": 109,
+        "tn": 108,
+        "fp": 4,
+        "fn": 3,
+        "precision": 0.9732,
+        "recall": 0.9646,
+        "pvn": 0.9729,
+        "specificity": 0.9643,
+        "fpr": 0.0357,
+        "fnr": 0.0354,
+        "fdr": 0.0268,
+        "f1_score": 0.9688,
+        "accuracy": 0.9687,
+        "error_rate": 0.0312,
+        "auc": 0.9859,
+        "ap": 0.9848
+    },
+    "misclassifications": {
+        "false_positives_count": 16,
+        "false_negatives_count": 7,
+        "false_positives": [
+            {
+                "filename": "notsmoking_0268.jpg",
+                "prob_smoking": 0.8806
+            },
+            {
+                "filename": "notsmoking_0259.jpg",
+                "prob_smoking": 0.7473
+            },
+            {
+                "filename": "notsmoking_0032.jpg",
+                "prob_smoking": 0.7306
+            },
+            {
+                "filename": "notsmoking_0281.jpg",
+                "prob_smoking": 0.7212
+            },
+            {
+                "filename": "notsmoking_0532.jpg",
+                "prob_smoking": 0.7117
+            },
+            {
+                "filename": "notsmoking_0130.jpg",
+                "prob_smoking": 0.6716
+            },
+            {
+                "filename": "notsmoking_0014.jpg",
+                "prob_smoking": 0.6194
+            },
+            {
+                "filename": "notsmoking_0465.jpg",
+                "prob_smoking": 0.6161
+            },
+            {
+                "filename": "notsmoking_0041.jpg",
+                "prob_smoking": 0.6026
+            },
+            {
+                "filename": "notsmoking_0036.jpg",
+                "prob_smoking": 0.5937
+            },
+            {
+                "filename": "notsmoking_0533.jpg",
+                "prob_smoking": 0.5909
+            },
+            {
+                "filename": "notsmoking_0388.jpg",
+                "prob_smoking": 0.5873
+            },
+            {
+                "filename": "notsmoking_0549.jpg",
+                "prob_smoking": 0.5735
+            },
+            {
+                "filename": "notsmoking_0180.jpg",
+                "prob_smoking": 0.5689
+            },
+            {
+                "filename": "notsmoking_0107.jpg",
+                "prob_smoking": 0.5285
+            },
+            {
+                "filename": "notsmoking_0233.jpg",
+                "prob_smoking": 0.5279
+            }
+        ],
+        "false_negatives": [
+            {
+                "filename": "smoking_0063.jpg",
+                "prob_smoking": 0.2828
+            },
+            {
+                "filename": "smoking_0546.jpg",
+                "prob_smoking": 0.2884
+            },
+            {
+                "filename": "smoking_0423.jpg",
+                "prob_smoking": 0.3021
+            },
+            {
+                "filename": "smoking_0352.jpg",
+                "prob_smoking": 0.3519
+            },
+            {
+                "filename": "smoking_0484.jpg",
+                "prob_smoking": 0.3892
+            },
+            {
+                "filename": "smoking_0403.jpg",
+                "prob_smoking": 0.4789
+            },
+            {
+                "filename": "smoking_0559.jpg",
+                "prob_smoking": 0.48
+            }
+        ]
+    }
+}
